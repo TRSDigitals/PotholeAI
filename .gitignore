@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.DS_Store
+Thumbs.db
+*.log
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+# Large trained model files are normally stored separately (e.g. Git LFS/release asset).
+# Uncomment the next line if you do not want best.pt tracked:
+# models/best.pt
